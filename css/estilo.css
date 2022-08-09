@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+:root{
+    --cor-base-texto:#333333; 
+    --cor-base-objetivo: hsl(184, 89%, 49%); 
+    --cor-base-formacao:#09C5D1;
+    --cor-base-experiencia:#07828A;
+    --cor-base-idiomas:rgb(4, 66, 70); 
+    --cor-base-linha:#16A3AC; 
+    --cor-base-linha2:#13CAD6; 
+    --cor-base-profissao:#1D70EC; 
+    }
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    html,
+    body{
+        font-family: 'Rajdhani', sans-serif;
+        
+    }
+
+h1{
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 25px;
+    text-align: center;
+}
+
+h2{
+font-size: 20px;
+
+}
+
+.data-nascimento{
+font-family: 'Exo', sans-serif;
+color: #000000;
+font-size: 15px;
+text-align: center;
+}
+
+.ola{
+    font-size: 30px;
+    text-align: center;
+     
+ }
+
+.profissao-class{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-base-profissao);
+    text-align: center;
+    
+}
+
+.frase-massa{
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+
+#hard{
+   align-items: center;
+    height: 80px;
+    
+}
+
+#hard img{
+    margin-right: 10px;
+   
+}
+
+#cansada{
+    flex-direction: column;
+    height: 90px;
+}
+
+#morta-estou{
+    height: 46px;
+}
+
+
+#comassim{
+    height: 300px;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+#colore{
+    background-color:var(--cor-base-objetivo) ;
+} 
+
+#colors{
+    background-color: var(--cor-base-formacao);
+}
+
+#colomi{
+    background-color: var(--cor-base-experiencia);
+}
+
+#colooo{
+    background-color: var(--cor-base-idiomas);
+} 
+
+#queijo{
+    color: whitesmoke;
+}
+
+ 
+@media screen and (min-width:960px){
+#hard{
+  justify-content: center;  
+ }
+
+ .josefina{
+    text-align: center;
+}
+#namoral-mesmo{
+    justify-content: center;
+flex-wrap: wrap;
+}
+}
+
